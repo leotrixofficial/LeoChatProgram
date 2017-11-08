@@ -17,5 +17,4 @@ Also something neat about this program is that a graphical client can talk to a 
 
 Currently the server can only communicate to one client and not multiple clients. I may add this in as a feature later on or in a different project. The aim of this program was to make a simple chat strictly between two machines.
 
-I made this as my Java Client/Server assignment for my Diploma of Software Developement course. Please feel free to pick at it and report any issues you have! :-) 
-- Leotrix
+I made this as my Java Client/Server assignment for my Diploma of Software Developement course. Please feel free to pick at it and report any issues you have! :-)

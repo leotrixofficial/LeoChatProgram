@@ -28,11 +28,17 @@ public class ChatFrame extends JFrame {
 		
 		// Instantiate a BufferedReader for receiving string from the server
 		BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-		Logging.writeToClientLog("BufferedReader instantied with socket's input stream.", false);
+		if (isClient)
+			Logging.writeToClientLog("BufferedReader instantied with socket's input stream.", false);
+		else
+			Logging.writeToServerLog("BufferedReader instantied with socket's input stream.", false);
 		
 		// Instantiate a PrintWriter for sending string data to the server through the socket's output stream
 		PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
-		Logging.writeToClientLog("PrintWriter instantied with socket's output stream.", false);			
+		if (isClient)
+			Logging.writeToClientLog("PrintWriter instantied with socket's output stream.", false);		
+		else
+			Logging.writeToServerLog("PrintWriter instantied with socket's output stream.", false);
 		
 		// Initialize text area and new message area
 		JTextArea ta = new JTextArea("Welcome to Leo's Chat Program!" + newline),
@@ -47,7 +53,10 @@ public class ChatFrame extends JFrame {
 		JButton sendButton = new JButton("Send");
 		sendButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				Logging.writeToClientLog("Send button clicked!", true);
+				if (isClient)
+					Logging.writeToClientLog("Send button clicked!", true);
+				else
+					Logging.writeToServerLog("Send button clicked!", true);
 				sendMessage(ta, newMessageArea, out);
 			}
 		});
@@ -90,7 +99,10 @@ public class ChatFrame extends JFrame {
 		// Append to main text area
 		ta.append(header + newMsg + "\n");
 		// Log message
-		Logging.writeToClientChatLog(header + newMsg);
+		if (isClient)
+			Logging.writeToClientChatLog(header + newMsg);
+		else
+			Logging.writeToServerChatLog(header + newMsg);
 		// Send message to server
 		out.println(newMsg);
 	}

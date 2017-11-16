@@ -6,8 +6,7 @@ import java.net.SocketException;
 
 import javax.swing.JOptionPane;
 
-public class ClientTools {
-	private static boolean This_GUI_Mode = false;
+public class ClientTools extends ConnectionTools {
 	// Returns an initialized socket
 	public static Socket initializeSocket(ConnectionDetails details) throws IOException {
 		Socket socket = null;

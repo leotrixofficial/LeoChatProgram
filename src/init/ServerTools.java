@@ -6,9 +6,7 @@ import java.net.BindException;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-public class ServerTools {
-	static boolean This_GUI_Mode = false;
-	
+public class ServerTools extends ConnectionTools {
 	// Initializes server socket
 	public static ServerSocket initializeServerSocket() {
 		ServerSocket listener = null;

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.2" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="init.ConnectionTools" project="LeoChatProgram" 
+    file="/LeoChatProgram/src/init/ConnectionTools.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="101" width="166" x="1562" y="32"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="init.serverPort" project="LeoChatProgram" 
+    file="/LeoChatProgram/src/init/ConsoleServer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="101" width="98" x="316" y="32"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="init.Filepaths" project="LeoChatProgram" 
+    file="/LeoChatProgram/src/init/Filepaths.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="155" width="186" x="3036" y="317"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="init.GUI_Client" project="LeoChatProgram" 
+    file="/LeoChatProgram/src/init/GUI_Client.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="101" width="125" x="454" y="32"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="init.ClientTools" project="LeoChatProgram" 
+    file="/LeoChatProgram/src/init/ClientTools.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="119" width="306" x="1389" y="317"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="init.ReadingThread" project="LeoChatProgram" 
+    file="/LeoChatProgram/src/init/ReadingThread.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="245" width="313" x="619" y="32"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="init.ConsoleServer" project="LeoChatProgram" 
+    file="/LeoChatProgram/src/init/ConsoleServer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="137" width="200" x="972" y="32"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="init.ChatFrame" project="LeoChatProgram" 
+    file="/LeoChatProgram/src/init/ChatFrame.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="119" width="310" x="1212" y="32"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="init.GUI_Server" project="LeoChatProgram" 
+    file="/LeoChatProgram/src/init/GUI_Server.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="101" width="125" x="1768" y="32"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="init.Logging" project="LeoChatProgram" 
+    file="/LeoChatProgram/src/init/Logging.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="209" width="244" x="3036" y="32"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="init.ConsoleClient" project="LeoChatProgram" 
+    file="/LeoChatProgram/src/init/ConsoleClient.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="155" width="364" x="1933" y="32"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="init.ServerTools" project="LeoChatProgram" 
+    file="/LeoChatProgram/src/init/ServerTools.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="173" width="309" x="1735" y="317"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="init.ClientPromptFrame" project="LeoChatProgram" 
+    file="/LeoChatProgram/src/init/ClientPromptFrame.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="83" width="155" x="2337" y="32"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="init.ConnectionDetails" project="LeoChatProgram" 
+    file="/LeoChatProgram/src/init/ConnectionDetails.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="119" width="151" x="2532" y="32"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="init.SendingThread" project="LeoChatProgram" 
+    file="/LeoChatProgram/src/init/SendingThread.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="173" width="273" x="2723" y="32"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="16">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="17" name="fp"/>      
+      <multiplicity id="18" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="19">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="20">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
